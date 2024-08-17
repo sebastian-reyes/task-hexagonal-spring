@@ -6,6 +6,6 @@ import java.util.List;
 import java.util.Optional;
 
 public interface RetrieveTaskUseCase {
-    Optional<Task> getTask(String taskId);
+    Optional<Task> getTask(Long taskId);
     List<Task> getAllTasks();
 }
